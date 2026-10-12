@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2023-25 Paranoid Android
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+
+    <!-- Dolby Atmos -->
+    <string name="dolby_title">Dolby Atmos</string>
+    <string name="dolby_enable">使用杜比全景声</string>
+    <string name="dolby_profile_title">选择音效配置</string>
+    <string name="dolby_preset">均衡器</string>
+    <string name="dolby_off">关闭</string>
+    <string name="dolby_on">开启</string>
+    <string name="dolby_low">低</string>
+    <string name="dolby_medium">中</string>
+    <string name="dolby_high">高</string>
+    <string name="dolby_max">最高</string>
+    <string name="dolby_unknown">未知</string>
+    <string name="dolby_on_with_profile">开启（%1$s）</string>
+    <string name="dolby_category_settings">音效调节</string>
+    <string name="dolby_category_adv_settings">高级设置</string>
+    <string name="dolby_adv_settings_footer">选择其他配置以显示高级设置。</string>
+    <string name="dolby_bass_enhancer">低音增强</string>
+    <string name="dolby_bass_level">低音强度</string>
+    <string name="dolby_bass_curve">低音曲线</string>
+    <string name="dolby_bass_curve_balanced">均衡</string>
+    <string name="dolby_bass_curve_sub_boost">超低音增强</string>
+    <string name="dolby_bass_curve_punch">冲击感</string>
+    <string name="dolby_treble_enhancer">高音增强</string>
+    <string name="dolby_treble_level">高音强度</string>
+    <string name="dolby_dialogue_enhancer">对白增强</string>
+    <string name="dolby_spk_virtualizer">扬声器虚拟环绕</string>
+    <string name="dolby_hp_virtualizer">耳机虚拟环绕</string>
+    <string name="dolby_volume_leveler">音量均衡</string>
+    <string name="dolby_bass_enhancer_summary">增强低频，带来更低沉有力的低音</string>
+    <string name="dolby_treble_enhancer_summary">增强高频，让高音更清晰</string>
+    <string name="dolby_dialogue_enhancer_summary">提升人声与对白的清晰度</string>
+    <string name="dolby_spk_virtualizer_summary">通过扬声器营造虚拟环绕声</string>
+    <string name="dolby_hp_virtualizer_summary">通过耳机营造虚拟环绕声</string>
+    <string name="dolby_volume_leveler_summary">自动均衡音量，保持一致的聆听体验</string>
+    <string name="dolby_connect_headphones">请连接耳机</string>
+    <string name="dolby_reset_all">重置配置</string>
+    <string name="dolby_reset_all_message">这会将所有配置恢复为出厂默认值。</string>
+    <string name="dolby_reset_all_toast">已成功重置所有配置</string>
+    <string name="dolby_hp_virtualizer_dolby_strength">虚拟环绕强度</string>
+    <string name="dolby_dialogue_enhancer_dolby_strength">对白增强强度</string>
+    <string name="dolby_notification_listener_label">杜比全景声服务</string>
+    <string name="loading">正在加载…</string>
+
+    <!-- Dolby profiles -->
+    <string name="dolby_profile_dynamic">动态</string>
+    <string name="dolby_profile_video">电影/视频</string>
+    <string name="dolby_profile_music">音乐</string>
+    <string name="dolby_profile_game">游戏</string>
+    <string name="dolby_profile_work">工作</string>
+    <string name="dolby_profile_casual">休闲</string>
+    <string name="dolby_profile_mood">情绪</string>
+
+    <!-- Dolby equalizer presets -->
+    <string name="dolby_preset_default">平坦（关闭）</string>
+    <string name="dolby_preset_rock">摇滚</string>
+    <string name="dolby_preset_jazz">爵士</string>
+    <string name="dolby_preset_pop">流行</string>
+    <string name="dolby_preset_classical">古典</string>
+    <string name="dolby_preset_hiphop">嘻哈</string>
+    <string name="dolby_preset_blues">布鲁斯</string>
+    <string name="dolby_preset_electronic">电子</string>
+    <string name="dolby_preset_country">乡村</string>
+    <string name="dolby_preset_dance">舞曲</string>
+    <string name="dolby_preset_metal">金属</string>
+    <string name="dolby_preset_acoustic">原声</string>
+    <string name="dolby_preset_bass">低音增强</string>
+    <string name="dolby_preset_beats">节拍</string>
+    <string name="dolby_preset_clear">清澈</string>
+    <string name="dolby_preset_deep">深沉</string>
+    <string name="dolby_preset_dubstep">回响贝斯</string>
+    <string name="dolby_preset_hardstyle">硬派</string>
+    <string name="dolby_preset_movie">电影</string>
+    <string name="dolby_preset_rb">R&amp;B</string>
+    <string name="dolby_preset_vocal">人声增强</string>
+    <string name="dolby_preset_custom">自定义</string>
+    <string name="equalizer">均衡器</string>
+    <string name="advanced">高级</string>
+    <string name="home">首页</string>
+
+    <!-- Dolby equalizer UI -->
+    <string name="dolby_geq_slider_label_gain">增益</string>
+    <string name="dolby_geq_preset">预设</string>
+    <string name="dolby_geq_preset_name">预设名称</string>
+    <string name="dolby_geq_new_preset">新建预设</string>
+    <string name="dolby_geq_rename_preset">重命名预设</string>
+    <string name="dolby_geq_delete_preset">删除预设</string>
+    <string name="dolby_geq_delete_preset_prompt">要删除此预设吗？</string>
+    <string name="dolby_geq_reset_gains">重置增益</string>
+    <string name="dolby_geq_reset_gains_prompt">要将此预设恢复为默认值吗？</string>
+    <string name="dolby_geq_preset_name_exists">预设名称已存在！</string>
+    <string name="dolby_geq_preset_name_too_long">预设名称过长！</string>
+    <string name="band_mode_mismatch">频段模式不匹配</string>
+    <string name="frequency_response">频率响应</string>
+    <string name="locked">已锁定</string>
+    <string name="band_configuration">频段配置</string>
+    <string name="choose_equalizer_precision">选择均衡器精度：频段越多，调节越精细</string>
+
+    <!-- Dolby intelligent EQ -->
+    <string name="dolby_ieq">智能均衡器</string>
+    <string name="dolby_balanced">均衡</string>
+    <string name="dolby_warm">温暖</string>
+    <string name="dolby_detailed">细腻</string>
+
+    <!-- Per-App Audio Profiles -->
+    <string name="app_profiles_title">应用独立音效配置</string>
+    <string name="app_profiles_desc">为不同应用分别指定音效配置，根据内容类型优化声音表现</string>
+    <string name="app_profiles_search_hint">搜索应用…</string>
+    <string name="app_profiles_no_apps">未找到应用</string>
+    <string name="app_profiles_loading">正在加载应用…</string>
+    <string name="app_profiles_clear_all">清除所有应用配置</string>
+    <string name="app_profiles_clear_all_message">这会移除所有应用的配置指定，应用将使用默认配置。</string>
+    <string name="app_profiles_manage">管理应用配置</string>
+    <string name="app_profiles_default">默认</string>
+    <string name="app_profiles_assigned">已指定：%1$s</string>
+    <string name="app_profiles_headphone_only">仅耳机/蓝牙模式</string>
+    <string name="app_profiles_headphone_only_description">仅在连接耳机或蓝牙音频设备时切换配置</string>
+    <string name="app_profiles_permission_required">需要权限</string>
+    <string name="app_profiles_permission_required_details">要根据当前使用的应用自动切换配置，请在下一屏幕授予“使用情况访问”权限。</string>
+    <string name="app_profiles_grant_permission">授予权限</string>
+    <string name="app_profiles_search_placeholder">搜索应用…</string>
+    <string name="app_profiles_no_apps_found">未找到应用</string>
+    <string name="app_profiles_retry">重试</string>
+    <string name="app_profiles_change">更改</string>
+    <string name="app_profiles_auto_switch">自动切换配置</string>
+    <string name="app_profiles_show_toasts">显示浮动提示</string>
+
+    <!-- Preset Import/Export -->
+    <string name="preset_import_export">导入/导出预设</string>
+    <string name="preset_export_single">导出预设</string>
+    <string name="preset_import_single">导入预设</string>
+    <string name="preset_export_batch">导出全部预设</string>
+    <string name="preset_import_batch">导入多个预设</string>
+    <string name="preset_copy_clipboard">复制到剪贴板</string>
+    <string name="preset_paste_clipboard">从剪贴板粘贴</string>
+    <string name="preset_share">分享预设</string>
+    <string name="preset_export_success">预设导出成功</string>
+    <string name="preset_import_success">预设导入成功</string>
+    <string name="preset_export_failed">导出失败</string>
+    <string name="preset_import_failed">导入失败</string>
+
+    <!-- Notification Access -->
+    <string name="notification_access_required">需要通知使用权</string>
+    <string name="notification_access_required_desc">启用通知使用权，以便杜比全景声在后台持续运行并自动切换配置。</string>
+    <string name="enable_notification_access">启用通知使用权</string>
+    <string name="enable_notification_access_desc">启用通知使用权，以便杜比全景声在后台持续运行并自动切换配置。</string>
+    <string name="notification_access_permission_details">此权限允许杜比全景声：\n\n• 在后台持续运行\n• 自动切换音效配置\n• 监测前台应用\n\n您的通知内容不会被读取或修改。</string>
+    <string name="open_settings">打开设置</string>
+    <string name="cancel">取消</string>
+
+    <!--import export -->
+    <string name="import_export_presets">导入/导出预设</string>
+    <string name="import_presets">导入预设</string>
+    <string name="import_presets_description">从文件或剪贴板导入预设</string>
+    <string name="import_single_file">单个文件</string>
+    <string name="import_batch">批量</string>
+    <string name="import_from_clipboard">从剪贴板</string>
+    <string name="your_custom_presets">您的自定义预设</string>
+    <string name="processing">正在处理…</string>
+    <string name="batch_export">批量导出</string>
+    <string name="batch_export_description">要将全部 %1$s 个自定义预设导出到单个文件吗？</string>
+    <string name="export_all">全部导出</string>
+
+    <!-- Dolby mid enhancer -->
+    <string name="dolby_mid_enhancer">中音增强</string>
+    <string name="dolby_mid_level">中音强度</string>
+    <string name="dolby_mid_enhancer_summary">增强中频，让人声和乐器更清晰</string>
+</resources>
